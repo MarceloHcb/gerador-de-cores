@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 90vh;
+    display: flex;
+}
+.colors{
+    display: flex;
+    width: 20%;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    position: fixed;
+    top: 750px;
+    left: 47%;
+    cursor: pointer;
+}
+body{
+    text-align: center;    
+}
